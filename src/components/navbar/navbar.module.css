@@ -1,0 +1,16 @@
+.container {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navlinks {
+  display: inline-block;
+  right: 40px;
+}
+
+.link {
+  text-decoration: none;
+  padding: 1rem;
+  color: #4a4a4a;
+}

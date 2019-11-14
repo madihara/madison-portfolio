@@ -9,8 +9,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
-import "./layout.css"
+import NavBar from "./navbar/navbar"
+
+import styles from "./layout.module.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,7 +26,8 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div>{children}</div>
+      <NavBar />
+      <div className={styles.container}>{children}</div>
     </>
   )
 }
