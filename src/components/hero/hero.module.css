@@ -54,6 +54,13 @@
     display: inline;
     position: absolute;
     top: 30px;
-    left: -100px;
+    left: 0px;
+  }
+
+  .iconBox{
+    display: none;
+  }
+  .icon{
+    display: none;
   }
 }
