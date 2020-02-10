@@ -19,6 +19,7 @@ const Hero = () => {
           <h2 className={styles.subTitle}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. </h2>
           <h2 className={styles.subTitle}><br></br><br></br>Full site and mobile version coming soon.</h2>
         </div>
+        <div className={styles.hidden}>Mobile version coming soon. Please view on a desktop</div>
 
       </div>
 

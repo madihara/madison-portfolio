@@ -40,3 +40,16 @@
 .icon:hover{
   transform: translate(3px);
 }
+
+.hidden{
+  display: none;
+}
+
+@media screen and (max-width:768px) {
+  .hidden{
+    display: inline;
+    position: absolute;
+    top: 30px;
+    left: -100px;
+  }
+}
