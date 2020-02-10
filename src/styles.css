@@ -4,11 +4,13 @@
   padding: 0;
   margin: 0;
   font-family: "Barlow", sans-serif;
+  overflow-x: hidden;
 }
 
 body {
   padding: 0;
   margin: 0;
+  height:100%;
   background-image: url('./images/photo-of-light-bulb-1495580.jpg');
   background-size: 100%;
   background-position: top;

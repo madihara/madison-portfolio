@@ -1,4 +1,6 @@
 .container{
   background:white;
   height: 100vh;
+  padding: 4rem;
+  font-size: 2rem;
 }

@@ -4,6 +4,8 @@ import github from '../../images/github-image.svg'
 import twitter from '../../images/twitter.svg'
 import email from '../../images/e-mail-envelope copy.svg'
 
+import Helmet from 'react-helmet'
+
 
 
 import styles from "./hero.module.css"
@@ -11,6 +13,7 @@ import styles from "./hero.module.css"
 const Hero = () => {
   return (
     <>
+
       <div className={styles.container}>
         <div>
           <Typical
@@ -31,6 +34,7 @@ const Hero = () => {
         <a href="https://twitter.com/madisonharadine" target="_blank"><img src={twitter} alt="twitter logo" className={styles.icon} /></a>
         <a href="mailto:madisonharadine@gmail.com" target="_blank"><img src={email} alt="email icon" className={styles.icon}></img></a>
       </div>
+
     </>
   )
 }
