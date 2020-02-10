@@ -23,3 +23,13 @@
   height: 200px;
   margin-left: 4rem;
 }
+
+@media screen and (max-width: 768px) {
+  .navlinks{
+    display: none;
+}
+  .menuBtn{
+    display: block;
+    color: white;
+  }
+}
