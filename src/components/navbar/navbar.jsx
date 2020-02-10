@@ -11,9 +11,7 @@ const NavBar = () => {
       <div><Flip><img src={logo} alt="logo" className={styles.logo}></img></Flip></div>
       <div className={styles.navlinks}>
         <Link to='/projects' className={styles.link}>projects</Link>
-        <Link className={styles.link}>blog</Link>
-        <Link className={styles.link}>resume</Link>
-        <Link className={styles.link}>connect</Link>
+        <Link to='/contact' className={styles.link}>connect</Link>
       </div>
     </div >
   )
