@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from 'gatsby'
-import github from '../../images/github-image.svg';
-import twitter from '../../images/twitter.svg';
+
 
 import styles from "./hero.module.css"
 
@@ -11,8 +10,8 @@ const Hero = () => {
       <div className={styles.container}>
         <div>
           <h1 className={styles.title}>Madison Haradine</h1>
-          <h2 className={styles.subTitle}>I am a web developer specializing in working with the JavaScript language primarily in React.  I have an intrest in data visualization with D3js and learning more about serverless computing. </h2>
-          <h2 className={styles.subTitle}>I am available for hire.</h2>
+          <h2 className={styles.subTitle}>I am a web developer experienced working with JavaScript technologies such as React and __. </h2>
+          <h2 className={styles.subTitle}>I am available for hire.<br></br><br></br>Full site coming soon.</h2>
         </div>
       </div>
       <div className={styles.iconBox}>

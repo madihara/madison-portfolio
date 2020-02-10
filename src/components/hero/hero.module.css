@@ -36,3 +36,7 @@
   text-decoration: none;
   margin: 0.3rem;
 }
+
+.icon:hover{
+  transform: translate(3px);
+}
