@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import logo from "../../../../../../Desktop/ps.png";
+import logo from "../../images/logo.png";
 
 import styles from "./navbar.module.css"
 
@@ -11,6 +11,7 @@ const NavBar = () => {
       <div className={styles.navlinks}>
         <Link className={styles.link}>projects</Link>
         <Link className={styles.link}>blog</Link>
+        <Link className={styles.link}>resume</Link>
         <Link className={styles.link}>connect</Link>
       </div>
     </div>

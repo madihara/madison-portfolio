@@ -18,4 +18,21 @@
 .subTitle {
   color: white;
   text-align: right;
+  margin-left: 150px;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 1.4rem;
+}
+
+.iconBox{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+}
+.icon{
+  color: white;
+  text-decoration: none;
+  margin: 0.3rem;
 }
