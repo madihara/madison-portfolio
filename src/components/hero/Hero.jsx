@@ -1,5 +1,8 @@
 import React from "react"
 import Typical from 'react-typical'
+import github from '../../images/github-image.svg'
+import twitter from '../../images/twitter.svg'
+import email from '../../images/e-mail-envelope copy.svg'
 
 
 
@@ -24,9 +27,9 @@ const Hero = () => {
       </div>
 
       <div className={styles.iconBox}>
-        <a href="https://github.com/madihara" target="_blank" className={styles.icon}>github</a>
-        <a href="https://twitter.com/madisonharadine" target="_blank" className={styles.icon}>twitter</a>
-        <a href="mailto:madisonharadine@gmail.com" target="_blank" className={styles.icon}>email</a>
+        <a href="https://github.com/madihara" target="_blank" > <img src={github} alt="github logo" className={styles.icon} /></a>
+        <a href="https://twitter.com/madisonharadine" target="_blank"><img src={twitter} alt="twitter logo" className={styles.icon} /></a>
+        <a href="mailto:madisonharadine@gmail.com" target="_blank"><img src={email} alt="email icon" className={styles.icon}></img></a>
       </div>
     </>
   )
