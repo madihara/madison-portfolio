@@ -30,12 +30,14 @@
   position: absolute;
   bottom: 30px;
   left: 15px;
+  
 }
 .icon{
   color: white;
   text-decoration: none;
   height: 2rem;
   margin: 0.2rem 0;
+  padding-right: 40px;
 
 }
 
