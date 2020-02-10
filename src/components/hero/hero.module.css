@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Loved+by+the+King&display=swap");
+
+.container {
+  position: absolute;
+  right: 30px;
+  top: 300px;
+  width: 60%;
+ 
+}
+
+.title {
+  font-family: "Loved by the King", cursive;
+  font-size: 6rem;
+  letter-spacing: 6px;
+  text-align: right;
+  color: white;
+}
+.subTitle {
+  color: white;
+  text-align: right;
+}

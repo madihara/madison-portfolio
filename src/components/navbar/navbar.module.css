@@ -7,10 +7,19 @@
 .navlinks {
   display: inline-block;
   right: 40px;
+ 
 }
 
 .link {
   text-decoration: none;
   padding: 1rem;
-  color: #4a4a4a;
+  color: white;
+}
+.link:hover {
+  color: #fada0e
+}
+
+.logo{
+  height: 140px;
+  margin-left: 4rem;
 }

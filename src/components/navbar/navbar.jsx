@@ -1,12 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
+import logo from "../../../../../../Desktop/ps.png";
 
 import styles from "./navbar.module.css"
 
 const NavBar = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.logo}>logo</div>
+      <div><img src={logo} alt="logo" className={styles.logo}></img></div>
       <div className={styles.navlinks}>
         <Link className={styles.link}>projects</Link>
         <Link className={styles.link}>blog</Link>

@@ -9,4 +9,8 @@
 body {
   padding: 0;
   margin: 0;
+  background-image: url('./images/photo-of-light-bulb-1495580.jpg');
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
 }
