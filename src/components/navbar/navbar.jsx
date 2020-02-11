@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import logo from "../../images/logo.png";
+import logo from "../../images/logoEdit.png";
 import Flip from 'react-reveal'
 
 import styles from "./navbar.module.css"

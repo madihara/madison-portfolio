@@ -22,7 +22,7 @@ const Hero = () => {
             wrapper="h1"
             className={styles.title}
           />
-          <h2 className={styles.subTitle}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. </h2>
+          <h2 className={styles.subTitle}>I'm a passionate Front End Developer and lover of React.  I have experience using modern HTML, CSS, and JavaScript to create responsive, user first websites.  <br></br><br></br>When I'm not building webpages, I love to learn new technologies and have been very interested in doing data visualization with D3.js and diving into serverless computing architecture.</h2>
           <h2 className={styles.subTitle}><br></br><br></br>Full site and mobile version coming soon.</h2>
         </div>
         <div className={styles.hidden}>Mobile version coming soon. Please view on a desktop</div>

@@ -19,9 +19,9 @@
   color: white;
   text-align: right;
   margin-left: 15rem;
-  font-family: sans-serif;
+  margin-right: 2rem;
   font-weight: normal;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .iconBox{
@@ -49,7 +49,7 @@
   display: none;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1332px) {
   .hidden{
     display: inline;
     position: absolute;
