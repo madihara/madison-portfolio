@@ -8,6 +8,7 @@
   background-color: var(--mainColor);
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 a{
