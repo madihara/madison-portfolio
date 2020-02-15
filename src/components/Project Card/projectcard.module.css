@@ -1,0 +1,19 @@
+@import '../../styles.css';
+
+
+
+.card{
+  padding: 1rem;
+  background-color: #ececec;
+  min-width: 350px;
+  min-height: 350px;
+  flex: 1 0 auto;
+  margin: .2rem;
+ 
+}
+
+.card:hover{
+  background-color: black;
+  color: white;
+  text-align: center;
+}

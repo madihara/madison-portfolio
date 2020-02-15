@@ -1,14 +1,16 @@
 import React from 'react'
+import Contact from '../components/contact/Contact'
+import NavBar from '../components/navbar/navbar'
 
-import styles from './styles/projects.module.css'
 
-const Contact = () => {
+
+const ContactPage = () => {
   return (
-    <div className={styles.container}>Contact info coming soon <br></br>
-      <a href="/">Home</a>
-
-    </div>
+    <>
+      <NavBar />
+      <Contact />
+    </>
   )
 }
 
-export default Contact
+export default ContactPage

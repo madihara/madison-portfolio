@@ -1,0 +1,20 @@
+@import '../../styles.css';
+
+.container{
+  background:white;
+  height: 100vh;
+  padding: 4rem;
+  font-size: 2rem;
+  background-color: var(--mainColor);
+  display: flex;
+  flex-flow: row wrap;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: red;
+}

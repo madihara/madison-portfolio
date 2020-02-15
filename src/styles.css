@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow&display=swap");
 
+
+:root{
+  --mainColor: #FFCC01;
+}
 * {
   padding: 0;
   margin: 0;
